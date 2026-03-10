@@ -9,11 +9,11 @@ int main() {
     char tahmin,tema;
     int harfBulunduMu ,bilinenHarfSayisi = 0;      
     
-    printf("Adam asmaca oyunumuza hosgeldiniz ! \n Kelimeyi bulmak için 8 hakkiniz var hakkinizi idareli kullanın !!! \n Tahmin edilmesi istenen kelimeyi yaziniz. DIKKATLII OLL KIMSE GORMESIINN!! :)   : ");
+    printf("Adam asmaca oyunumuza hosgeldiniz ! \n Kelimeyi bulmak iÃ§in 8 hakkiniz var hakkinizi idareli kullanÄ±n !!! \n Tahmin edilmesi istenen kelimeyi yaziniz. DIKKATLII OLL KIMSE GORMESIINN!! :)   : ");
     scanf("%s", gizliKelime);
 
     printf("\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n"); 
-    printf("yazdiğiniz kelime hangi tema ile ilgili yazınız:\n");
+    printf("yazdiÄŸiniz kelime hangi tema ile ilgili yazÄ±nÄ±z:\n");
     scanf(" %s",& tema);
 
     uzunluk = strlen(gizliKelime);
@@ -23,9 +23,9 @@ int main() {
       
         gorunenKelime[i] = '_'; 
     }
-    gorunenKelime[uzunluk] = '\0';   // son vermek için yazdım.
+    gorunenKelime[uzunluk] = '\0';   // son vermek iÃ§in yazdÄ±m.
 
-    printf("Oyun başlıyor. Kelime %d harfli... BAŞARILAR :)\n", uzunluk);
+    printf("Oyun baÅŸlÄ±yor. Kelime %d harfli... BAÅARILAR :)\n", uzunluk);
 
     
     while (hak > 0 && bilinenHarfSayisi < uzunluk) {
