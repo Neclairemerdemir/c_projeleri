@@ -1,4 +1,4 @@
-// taþ-kaðýt-makas oyunu 
+// taÅŸ-kaÄŸÄ±t-makas oyunu 
 #include<stdio.h>
 #include<stdlib.h>
 #include<time.h>
@@ -9,16 +9,16 @@ int main (){
 	   for (i=0;i<3;i++){
 	 do{
 	 	
-	 printf(">>> TAÞ KAÐIT MAKAS OYUNU <<<\n");
-	 printf("1.Tas \n 2.Kagýt \n 3.Makas\n");
-	 printf("Seciminizi yapýn (1-3):");
+	 printf(">>> TAÅž KAÄžIT MAKAS OYUNU <<<\n");
+	 printf("1.Tas \n 2.KagÄ±t \n 3.Makas\n");
+	 printf("Seciminizi yapÄ±n (1-3):");
 	 scanf ("%d",&kullanici_secimi);
 	
 	 
-	 // bilgisayar 1 ile 3 arasýnda rastgele seçim yapar.
+	 // bilgisayar 1 ile 3 arasÄ±nda rastgele seÃ§im yapar.
 	 
 	 bilgisayar_secimi=rand()%3+1;
-	 printf ("Bilgisayarýn seçimi:");
+	 printf ("BilgisayarÄ±n seÃ§imi:");
 	  
 	  switch( bilgisayar_secimi) {
 	  	 
@@ -47,26 +47,26 @@ int main (){
 	    printf("SKOR = siz: %d  --- bilgisayar: %d \n",a,b);
 		}
 		 else if (kullanici_secimi==3 && bilgisayar_secimi==2){
-	    	printf (" MAKAS KAÐIDI KESER KAZANDINIZ :)");
+	    	printf (" MAKAS KAÄžIDI KESER KAZANDINIZ :)");
 	    	a=a+1;
 	    	printf("SKOR = siz: %d  --- bilgisayar: %d \n",a ,b);
 		}
 			 else if (kullanici_secimi==2 && bilgisayar_secimi==1){
-	    	printf (" KAÐIT TASI SARAR KAZANDINIZ :)");
+	    	printf (" KAÄžIT TASI SARAR KAZANDINIZ :)");
 	    	a=a+1;
 	    	printf("SKOR = siz: %d  --- bilgisayar: %d \n",a ,b);
 		}
 		else {
-			printf("KAYBETTÝNÝZ :((( ");
+			printf("KAYBETTÄ°NÄ°Z :((( ");
 			b=b+1;
 			printf("SKOR = siz: %d  --- bilgisayar: %d \n",a ,b);
 		}
 
-		  printf ("tekrar oynamak istermisiniz \n (evet ise 'e' hayýr ise 'h'yazýnýz ):\n");
+		  printf ("tekrar oynamak istermisiniz \n (evet ise 'e' hayÄ±r ise 'h'yazÄ±nÄ±z ):\n");
 		  scanf(" %c",&devam);
 		    	} 
 		     while (devam=='e'|| devam=='E');		
-			  printf("oyunumuz bitti bir baþka oyunda görüþürüz !!!");   
+			  printf("oyunumuz bitti bir baÅŸka oyunda gÃ¶rÃ¼ÅŸÃ¼rÃ¼z !!!");   
 		   	   
 	}
 		   	  return 0;
