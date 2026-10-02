@@ -6,10 +6,11 @@ Bu depo, Bilgisayar Mühendisliği eğitimim süresince C dili ile geliştirdiğ
 
 * **AdamAsmacaOyunu.c:** Kullanıcın kelimeyi tahmin etmeye çalıştığı, döngüler ve dizi (array) mantığı kullanılarak geliştirilmiş klasik Adam Asmaca oyunu.
 * **TasKagitMakas.c:** Rastgele sayı üretimi (`rand()`) ve koşullu ifadeler kullanılarak hazırlanan Taş-Kağıt-Makas uygulaması.
-
+* **konuAnlatimi.c:**Struct node yapısını özetlemeye yarayan bir c projesidir.
+  
 ## 🛠 Teknik Araçlar
 * **Dil:** C
-* **Derleyici:** Dev C++
+* **Derleyici:** Dev C++ / VisualStudio 2022
 * **Kazanımlar:** Temel girdi/çıktı işlemleri, döngüler, diziler ve rastgelelik yönetimi.
 
 ## 📌 Gelişim Notu
