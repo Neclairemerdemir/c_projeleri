@@ -6,7 +6,8 @@ Bu depo, Bilgisayar Mühendisliği eğitimim süresince C dili ile geliştirdiğ
 
 * **AdamAsmacaOyunu.c:** Kullanıcın kelimeyi tahmin etmeye çalıştığı, döngüler ve dizi (array) mantığı kullanılarak geliştirilmiş klasik Adam Asmaca oyunu.
 * **TasKagitMakas.c:** Rastgele sayı üretimi (`rand()`) ve koşullu ifadeler kullanılarak hazırlanan Taş-Kağıt-Makas uygulaması.
-* **konuAnlatimi.c:**Struct node yapısını özetlemeye yarayan bir c projesidir.
+* konuAnlatimi.c:Struct node yapısını özetlemeye yarayan bir c projesidir.
+* StructNodeEkleSil.c:* Struct node yapısında ekle sil uygulamalarını gösteren c projesidir.
   
 ## 🛠 Teknik Araçlar
 * **Dil:** C
